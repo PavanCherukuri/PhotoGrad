@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.pixels.photograd.core.servlets.FileUploadServlet">
+  <property name="sling.servlet.extensions" type="String" value="json"/>
+  <property name="sling.servlet.paths" type="String" value="/bin/uploadServlet"/>
+  <property name="sling.servlet.methods" type="String" value="POST"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="res" interface="com.pixels.photograd.core.services.AdminResourceResolver" field="res"/>
+  <implementation class="com.pixels.photograd.core.servlets.FileUploadServlet"/>
+</scr:component>

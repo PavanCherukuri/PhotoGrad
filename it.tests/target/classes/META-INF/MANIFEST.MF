@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1650735585231
+Bundle-Category: photograd
+Bundle-Description: "Bundles for Integration Tests for photograd"
+Bundle-ManifestVersion: 2
+Bundle-Name: photograd - Integration Tests Bundles
+Bundle-SymbolicName: photograd.it.tests
+Bundle-Version: 1.0.0
+Created-By: 11.0.10 (Azul Systems, Inc.)
+Export-Package: com.pixels.photograd.it.tests;version="1.0";uses:="org
+ .apache.sling.junit.annotations,org.junit,org.junit.runner"
+Import-Package: com.pixels.photograd.core.models;version="[1.0,2)",org
+ .apache.sling.api.resource;version="[2.11,3)",org.apache.sling.junit.
+ annotations;version="[1.0,2)",org.apache.sling.settings;version="[1.3
+ ,2)",org.junit;version="[4.8,5)",org.junit.runner;version="[4.8,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-4.2.0.201903051501
+

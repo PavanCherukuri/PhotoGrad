@@ -1,0 +1,27 @@
+<sly data-sly-use.headss="com.pixels.photograd.core.models.HeaderPages"/>
+
+	<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+<header class="header-fixed">
+
+	<div class="header-limiter">
+<sly data-sly-test.var1="${currentPage.path}"></sly>
+		<h1><a href="#">Photo<span>Grad</span></a></h1>
+		<nav>
+                <sly data-sly-list.pageChilds="${headss.getMultifieldValues.listChildren}">
+                <sly data-sly-test.var2="${pageChilds.pagepath}"></sly>
+                <sly data-sly-test="${var1==var2}">
+                    <a style="color:#007bff" href="${pageChilds.pagepath}.html">${pageChilds.pagename}</a>
+                </sly>
+
+                <sly data-sly-test="${var1!=var2}">
+                    <a href="${pageChilds.pagepath}.html">${pageChilds.pagename}</a>
+                </sly>
+                </sly>
+		</nav>
+
+
+
+</header>
+
+

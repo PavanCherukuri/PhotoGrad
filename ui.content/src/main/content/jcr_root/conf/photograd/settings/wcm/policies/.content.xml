@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <content-default
+                        jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2022-04-23T15:11:46.106+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="photograd Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:photograd,/apps/photograd/components/form/container,group:photograd2]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="photograd/components/content/image"
+                                    type="Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </content-default>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <photograd jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="photograd Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/photograd/components/form/button,/apps/photograd/components/form/hidden,/apps/photograd/components/form/options,/apps/photograd/components/form/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </form-container>
+                </container>
+            </form>
+            <content jcr:primaryType="nt:unstructured">
+                <accordion jcr:primaryType="nt:unstructured"/>
+                <container jcr:primaryType="nt:unstructured">
+                    <policy_1650706985430
+                        jcr:lastModified="{Date}2022-04-23T15:13:23.388+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="re"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:photograd2">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1650706985430>
+                </container>
+                <title jcr:primaryType="nt:unstructured">
+                    <policy_1650707170571
+                        cq:styleDefaultClasses="diff styles"
+                        jcr:lastModified="{Date}2022-04-23T15:17:07.960+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="style2"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                        linkDisabled="false"
+                        type="h1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="stylessss"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="style1"
+                                        cq:styleId="1650707199355"
+                                        cq:styleLabel="Style 1"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="style2"
+                                        cq:styleId="1650707217331"
+                                        cq:styleLabel="Style 2"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1650707170571>
+                </title>
+            </content>
+        </components>
+    </photograd>
+</jcr:root>

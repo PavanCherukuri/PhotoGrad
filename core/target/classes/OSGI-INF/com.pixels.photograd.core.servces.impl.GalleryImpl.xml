@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.pixels.photograd.core.servces.impl.GalleryImpl" immediate="true">
+  <service>
+    <provide interface="com.pixels.photograd.core.services.Gallery"/>
+  </service>
+  <reference name="queryBuilder" interface="com.day.cq.search.QueryBuilder" field="queryBuilder"/>
+  <reference name="res" interface="com.pixels.photograd.core.services.AdminResourceResolver" field="res"/>
+  <implementation class="com.pixels.photograd.core.servces.impl.GalleryImpl"/>
+</scr:component>

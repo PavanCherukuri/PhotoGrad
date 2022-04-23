@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/photograd"/>
+    <filter root="/etc/packages/adobe/cq60/core.wcm.components.all-2.5.0.zip"/>
+    <filter root="/etc/packages/adobe/cq60/core.wcm.components.examples-2.5.0.zip"/>
+</workspaceFilter>

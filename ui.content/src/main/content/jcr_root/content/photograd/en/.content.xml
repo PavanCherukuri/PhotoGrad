@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-23T21:39:19.999+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2022-04-23T21:39:20.001+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/photograd/settings/wcm/templates/photo-grad-content-page"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="photograd/components/structure/photograd-page">
+        <root
+            cq:lastRolledout="{Date}2022-04-23T21:39:20.001+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:lastModified="{Date}2022-04-23T21:39:19.999+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/photograd/language-masters/en"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+    <home/>
+</jcr:root>

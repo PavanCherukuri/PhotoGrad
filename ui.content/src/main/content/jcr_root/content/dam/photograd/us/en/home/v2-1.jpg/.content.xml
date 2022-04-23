@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="652dfe54-c9be-4cb2-8d54-e91413e289a4">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-04-23T11:49:40.640+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2022-04-23T11:49:40.058+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}29.36111068725586"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}45.26388931274414"
+            dam:Progressive="no"
+            dam:sha1="3ca4e6fff0d74d4908117d70c2104cb25eb261fa"
+            dam:size="{Long}900487"
+            dc:format="image/jpeg"
+            exif:ColorSpace="{Long}1"
+            exif:DateTimeOriginal="{Date}2022-04-23T11:37:42.290+05:30"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:DateCreated="{Date}2022-04-23T11:37:42.290+05:30"
+            tiff:ImageLength="{Long}2114"
+            tiff:ImageWidth="{Long}3259"
+            tiff:Orientation="{Long}1"
+            xmp:CreateDate="{Date}2022-04-23T11:37:42.290+05:30"
+            xmp:CreatorTool="Windows Photo Editor 10.0.10011.16384"
+            xmp:ModifyDate="{Date}2022-04-23T11:49:24.000+05:30"
+            xmpMM:InstanceID="uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

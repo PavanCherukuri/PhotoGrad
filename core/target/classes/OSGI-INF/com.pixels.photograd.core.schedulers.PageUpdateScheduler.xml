@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.pixels.photograd.core.schedulers.PageUpdateScheduler" immediate="true" activate="activate" deactivate="deactivate">
+  <property name="cronExpression" type="String" value="0 0 0 1/1 * ? *"/>
+  <property name="schedulerName" type="String" value="Photo Grad Scheduler dialy"/>
+  <service>
+    <provide interface="java.lang.Runnable"/>
+  </service>
+  <reference name="pageService" interface="com.pixels.photograd.core.services.PageUpdateService" field="pageService"/>
+  <reference name="scheduler" interface="org.apache.sling.commons.scheduler.Scheduler" field="scheduler"/>
+  <implementation class="com.pixels.photograd.core.schedulers.PageUpdateScheduler"/>
+</scr:component>

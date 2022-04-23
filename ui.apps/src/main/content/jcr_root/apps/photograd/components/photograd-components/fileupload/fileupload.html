@@ -1,0 +1,17 @@
+<sly
+        data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}"
+        data-sly-call="${clientLib.all @ categories='photograd.upload'}"/>
+<br>
+<h3>Submit Your Image</h3>
+<br>
+<div class="container">
+    <form id="fileForm">
+    <input type="file" name="file" required>
+
+    <button id="btnUpload" type="button">Upload file</button>
+    <button id="btnClear" type="button">Clear</button>
+
+    </form>
+  <br><br><br>
+   <div id="imgContainer"></div>
+</div>

@@ -1,0 +1,22 @@
+<style>
+.style1
+{
+font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+color:red;
+}
+
+.style2
+{
+font-family:'Comic sans MS';
+color:blue;
+}
+
+</style>
+
+<div class="cmp-title"
+     data-sly-use.title="com.adobe.cq.wcm.core.components.models.Title"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.text="${title.text}">
+    <h1 class="cmp-title__text" data-sly-element="${title.type}" style="font:17px Arial, Helvetica, sans-serif;"><a data-sly-unwrap="${!title.linkURL || title.linkDisabled}" class="cmp-title__link" href="${title.linkURL}">${text}</a></h1>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!text, classAppend='cmp-title'}"></sly>

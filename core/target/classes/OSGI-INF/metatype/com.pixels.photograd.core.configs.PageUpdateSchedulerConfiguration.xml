@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.pixels.photograd.core.configs.PageUpdateSchedulerConfiguration">
+  <OCD id="com.pixels.photograd.core.configs.PageUpdateSchedulerConfiguration" name="PhotoGrad - Scheduler Configuration" description="Sling scheduler configuration">
+    <AD id="schedulerName" type="String" name="Scheduler name" description="Name of the scheduler" default="Photo\ Grad\ Scheduler\ dialy"/>
+    <AD id="cronExpression" type="String" name="Cron Expression" description="Cron expression used by the scheduler" default="0\ 0\ 0\ 1/1\ *\ ?\ *"/>
+  </OCD>
+  <Designate pid="com.pixels.photograd.core.schedulers.PageUpdateScheduler">
+    <Object ocdref="com.pixels.photograd.core.configs.PageUpdateSchedulerConfiguration"/>
+  </Designate>
+</metatype:MetaData>

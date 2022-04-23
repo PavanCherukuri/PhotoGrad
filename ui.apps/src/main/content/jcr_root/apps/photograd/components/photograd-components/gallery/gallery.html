@@ -1,0 +1,13 @@
+<sly
+        data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}"
+        data-sly-call="${clientLib.all @ categories='photograd.gallery'}"/>
+
+<sly data-sly-use.data="com.pixels.photograd.core.models.PathModel"/>
+
+
+
+<div class="image-grid">
+  <sly data-sly-list.itemList="${data.assetPathsModel}">
+  <img src="${itemList}/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="architecture">
+  </sly>
+</div>

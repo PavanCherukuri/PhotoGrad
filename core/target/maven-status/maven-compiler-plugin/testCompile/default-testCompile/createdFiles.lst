@@ -1,0 +1,5 @@
+com\pixels\photograd\core\models\HelloWorldModelTest.class
+com\pixels\photograd\core\listeners\SimpleResourceListenerTest.class
+com\pixels\photograd\core\servlets\SimpleServletTest.class
+com\pixels\photograd\core\schedulers\SimpleScheduledTaskTest.class
+com\pixels\photograd\core\filters\LoggingFilterTest.class

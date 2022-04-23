@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="622042b6-873f-4c2d-a413-6d9f4ec0c9e0">
+    <jcr:content
+        cq:name="photo-grad-content-fragmetn"
+        cq:parentPath="/content/dam/photograd/content-fragments/english"
+        jcr:lastModified="{Date}2022-04-23T12:41:10.039+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Pixel"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-04-23T12:41:10.039+05:30">
+        <data
+            cq:model="/conf/photograd/settings/dam/cfm/models/photo-grad-cfm"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                pg2_x0040_LastModified="{Date}2022-04-23T11:20:44.181+05:30"
+                photo-description="&lt;p>&lt;i>Taking a series of photos of a historic site or landmark can be a great experience. You can learn to capture the same site from different angles to help portray its character and tell its story. And you can also photograph how people visit and engage with the site or landmark. Take photos at different times of day and in varied lighting to capture all its nuances and moods.&lt;/i>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&lt;i>You can also use your photographic essay to help your audience understand the history of your chosen location. For example, if you want to provide perspective on the Civil War, a visit to a battleground can be meaningful. You can also visit a site when reenactors are present to share insight on how life used to be in days gone by.&amp;nbsp;&lt;/i>&lt;/p>&#xa;"
+                photo-description_x0040_ContentType="text/html"
+                photo-description_x0040_LastModified="{Date}2022-04-23T12:41:10.012+05:30"
+                publish-date="{Date}2022-01-11T11:22:00.000+05:30"
+                publish-date_x0040_LastModified="{Date}2022-04-23T12:41:10.012+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

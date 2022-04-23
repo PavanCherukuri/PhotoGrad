@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: M1062275
+Build-Jdk: 11.0.10
+Implementation-Title: photograd - UI apps
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.pixels
+Content-Package-Roots: /apps/photograd,/etc/packages/adobe/cq60/core.wcm
+ .components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.components.
+ examples-2.5.0.zip
+Content-Package-Description: UI apps package for photograd
+Content-Package-Id: photograd:photograd.ui.apps:1.0
+Content-Package-Type: mixed
+

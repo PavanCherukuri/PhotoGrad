@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>photograd - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2022-04-23T23:09:36.576+05:30</entry>
+<entry key="groupId">com.pixels</entry>
+<entry key="description">UI content package for photograd</entry>
+<entry key="version">1.0</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="createdBy">M1062275</entry>
+<entry key="name">photograd.ui.content</entry>
+<entry key="artifactId">photograd.ui.content</entry>
+<entry key="group">photograd</entry>
+</properties>

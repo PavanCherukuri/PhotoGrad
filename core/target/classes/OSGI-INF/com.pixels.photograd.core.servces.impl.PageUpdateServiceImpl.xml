@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.pixels.photograd.core.servces.impl.PageUpdateServiceImpl" immediate="true">
+  <service>
+    <provide interface="com.pixels.photograd.core.services.PageUpdateService"/>
+  </service>
+  <reference name="resolverFactory" interface="com.pixels.photograd.core.services.AdminResourceResolver" field="resolverFactory"/>
+  <implementation class="com.pixels.photograd.core.servces.impl.PageUpdateServiceImpl"/>
+</scr:component>
